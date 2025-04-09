@@ -1,0 +1,11 @@
+*.py[cod]
+__pyache__/
+
+env/
+venv/
+
+.env
+.vscode/
+*.sql
+*.dump
+*.log
