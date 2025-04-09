@@ -36,7 +36,7 @@ class PatientSerializer(serializers.ModelSerializer):
 class DoctorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Doctor
-        fields = '_all_'
+        fields = '__all__'
 
 
 class PatientDoctorMappingSerializer(serializers.ModelSerializer):
